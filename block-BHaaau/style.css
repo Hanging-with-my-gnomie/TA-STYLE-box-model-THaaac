@@ -1,0 +1,124 @@
+.container span{
+    height: 400px;
+    width: 400px;
+    border: 30px solid rgb(95, 157, 238);
+    display: block;
+    margin-left: 400px;
+    background-color: blanchedalmond;
+    outline: 20px solid rgb(180, 102, 102);
+    
+
+}
+.container li{
+
+        display: inline-block;
+        text-align: center;
+        margin-left:220px ;
+        margin-top: 50px;
+        padding-block: 4px;
+        
+
+        
+}
+.para{
+    font-size: 50px;
+    margin-left: 400px;
+}
+
+.container1{
+    width: 700px;
+    height: 200px;
+    display: block;
+    margin-top: 80px;
+    border: 2px solid black;
+    margin-left: 300px;
+    
+    
+
+}
+
+    
+    
+    
+
+#id1{
+
+    width: 180px;
+    height: 100px;
+    margin: 20px;
+    
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(73, 72, 70);
+
+}
+#id2{
+
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(46, 45, 43);
+
+}
+#id2{
+
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+
+}
+.container2{
+    width: 700px;
+    height: 200px;
+    display: block;
+    margin-top: 80px;
+    border: 2px solid black;
+    margin-left: 300px;
+    
+    
+
+} 
+#id3{
+
+    width: 180px;
+    height: 100px;
+    margin: 20px;
+    
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(73, 72, 70);
+
+}
+#id4{
+
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(46, 45, 43);
+
+}
+#id5{
+
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    
+    margin-top: 50px;
+    display: inline-block;
+    background-color: rgb(44, 43, 43);
+
+}
+.para1{
+    margin-left: 300px;
+    font-size: 30px;
+}
