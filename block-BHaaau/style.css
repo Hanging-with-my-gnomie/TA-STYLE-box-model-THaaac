@@ -1,124 +1,146 @@
-.container span{
-    height: 400px;
-    width: 400px;
-    border: 30px solid rgb(95, 157, 238);
-    display: block;
-    margin-left: 400px;
-    background-color: blanchedalmond;
-    outline: 20px solid rgb(180, 102, 102);
-    
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Custom styles */
+body{
+    line-height: 1.5;
+    padding-bottom: 800px;
+}
+
+h1{
+    text-align: center;
+    font-size: 64px;
+    margin: 32px 180px;
+}
+hr{
+    width: 500px;
+    border-style: dashed;
+}
+section{
+    text-align: center;
+}
+h2{
+   text-align: center;
+   font-size: 32px;
+   padding: 10px;
+   
 
 }
-.container li{
 
-        display: inline-block;
-        text-align: center;
-        margin-left:220px ;
-        margin-top: 50px;
-        padding-block: 4px;
-        
 
-        
-}
-.para{
-    font-size: 50px;
-    margin-left: 400px;
-}
-
-.container1{
-    width: 700px;
+.box{
+    width: 200px;
     height: 200px;
-    display: block;
-    margin-top: 80px;
-    border: 2px solid black;
-    margin-left: 300px;
-    
-    
-
-}
-
-    
-    
-    
-
-#id1{
-
-    width: 180px;
-    height: 100px;
-    margin: 20px;
-    
-    margin-top: 50px;
+    background-color: #bada55;
+    border: 20px solid #ADD8E6;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 20px coral;
     display: inline-block;
-    background-color: rgb(73, 72, 70);
-
-}
-#id2{
-
-    width: 180px;
-    height: 100px;
-    margin: 10px;
+    margin-top: 32px;
     
-    margin-top: 50px;
+}
+.marker-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #ADD8E6;
     display: inline-block;
-    background-color: rgb(46, 45, 43);
+    border-radius: 50%;
+    margin-top: 32px;
+}
+.padding{
+    background-color:coral ;
 
 }
-#id2{
-
-    width: 180px;
-    height: 100px;
-    margin: 10px;
+.border{
+    background-color: aqua;
+    }
+.margin{
+    background-color: crimson;
     
-    margin-top: 50px;
+}
+.marker{
+    margin: 0 16px;
+     display: inline-block; 
+}
+h3{
+    font-size: 25px;
+}
+.container{
+    width: 600px;
+    border: 1px solid black;
+    text-align: center;
     display: inline-block;
-    background-color: rgb(44, 43, 43);
+    margin-top: 25px;
 
 }
-.container2{
-    width: 700px;
-    height: 200px;
-    display: block;
-    margin-top: 80px;
-    border: 2px solid black;
-    margin-left: 300px;
-    
-    
-
-} 
-#id3{
-
-    width: 180px;
-    height: 100px;
-    margin: 20px;
-    
-    margin-top: 50px;
-    display: inline-block;
-    background-color: rgb(73, 72, 70);
-
-}
-#id4{
-
+.child{
     width: 180px;
     height: 100px;
     margin: 10px;
-    
-    margin-top: 50px;
-    display: inline-block;
-    background-color: rgb(46, 45, 43);
-
+     float: right;
+    background-color: gray;
 }
-#id5{
-
+.child1{
+    width: 180px;
+    height: 100px;
+    margin: 15px;
+    border-width: 1px;
+     float: left;
+    background-color: gray;
+}
+.child2{
     width: 180px;
     height: 100px;
     margin: 10px;
-    
-    margin-top: 50px;
-    display: inline-block;
-    background-color: rgb(44, 43, 43);
-
-}
-.para1{
-    margin-left: 300px;
-    font-size: 30px;
+     float: right;
+    background-color: gray;
 }
